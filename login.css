@@ -1,0 +1,78 @@
+body{
+width: 500px;
+height: auto;
+margin:auto;
+background:#D3D3D3;
+font-family:sans-serif;
+}
+#n{
+	margin-left:-25px;
+	padding:30px;
+}
+#header{
+	background-color:#fafad2;
+	margin-top:5px;
+	text-align:center;
+	margin-left:0px;
+	padding:30px;
+}
+#atas{
+height:35px;
+width:520px;
+text-align:center;
+font-size:15pt;
+font-family:sans-serif;
+font-size:40px;
+color:black;
+padding-top:15px;
+float:center;
+}
+#bawah{
+float:center;
+}
+#footer{
+
+margin-left:0px;
+padding:10px;
+font-size: 15px;
+color:magenta;
+float:center;
+background: #fafad2;
+text-align: center;
+border-top: 1px solid #fff;
+clear:both;
+
+}
+.masuk{
+width:400px;
+height:40px;
+margin-top:10px;
+margin-left:60px;
+font-size:12pt;
+border:0px solid ;
+padding-left:10px;
+color:magenta;
+}
+.masuk:
+focus{
+width:400px;
+height:40px;
+margin-top:10px;
+margin-left:60px;
+font-size:12pt;
+padding-left:10px;
+color:#D3D3D3;
+outline:none;
+box-shadow: 0 0 5px#2ECC71'
+}
+#tombol{
+width:400px;
+height:40px;
+margin-top:10px;
+margin-left:60px;
+background:magenta;
+border:none;
+color:#fff;
+font-size:14pt;
+outline:none;
+}

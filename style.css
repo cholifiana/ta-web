@@ -1,0 +1,81 @@
+html{
+background:#90EE90;
+font-family:tahoma;
+}
+body{
+width:auto;
+height: 500px;
+}
+#header{
+	background-color:#FAFAD2;
+	color:#8B4513;
+	font-family:Tahoma;
+	font-size:70px;
+	text-align:center;
+	padding:5px;
+	border: 1px solid #e3e3e3;
+	
+}
+nav ul{ 	
+
+	float:right;
+	margin-left: auto;
+    margin-right:300px;
+	position: relative;
+    list-style:none; // menghilangkan tanda pada pinggir ist
+	width:900px; 
+	height:50px;
+}
+nav ul a{
+	text-decoration:none; //menghilangkan efek teks atau link, di sini kita gunakan untuk menghilangkan garis bawah link
+}
+nav ul li ul{
+	
+	display:none; //menyembunyikan menu saat pointerr tidak sedang di atas nya
+	padding-left:5px; // menggatur padding
+	width:300px;	
+}
+nav ul li:hover ul{
+	position:absolute;
+	display:block;  //menampilkan menu saat pointerr di atasnya
+}
+nav ul li:hover{
+	background:blue;
+}
+nav ul li{
+	float:right;
+	margin-left: auto;
+	position: relative;
+	width:250px;
+	height:35px;
+	background:magenta;
+	text-align:center;
+	padding-top:15px;
+}
+nav a{
+	color:#fff;
+	font-family:Vendana;
+	font-size:20pt;
+}
+#section{
+	margin-top:70px;
+	margin-left:270px;
+	font-family:tahoma;
+	font-size:25px;
+	float:center;
+	padding:5px;
+}
+#form{
+	color:black;
+	margin-left:200px;
+	margin-right:200px;
+	padding-left:100px;
+	padding: 3em;
+	font-size:12px;
+
+}
+#footer{
+	background-color:#FAFAD2;
+	color:#8B4513;
+	text-align:center;
+	padding:5px;
